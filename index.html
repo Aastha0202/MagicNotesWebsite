@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic notes</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="navmenu">
+            <li><a href="#">Home</a></li>
+        </ul>
+        <form class="myform">
+            <input type="search" placeholder="search" id="searchcn" aria-label="search">
+            <button type="submit" class="btn3" id=clearbtn>clear All</button>
+        </form>
+    </nav>
+    <div class="container">
+        <h1>Welcome To Magic Notes</h1>
+        <div class="card">
+            <h5 class="card-tittle">Add Title </h5>
+            <div class="form-group">
+                <textarea class="Txtarea" id="addTitle" placeholder="enter title"></textarea>
+            </div>
+            <div class="card-body">
+                <h5 class="card-tittle">Add Note </h5>
+                <div class="form-group">
+                    <textarea class="Txtarea" id="addTxt" placeholder="enter note"></textarea>
+                </div>
+                <button class="button third" id="Addbtn">Add Notes</button>
+            </div>
+        </div>
+        <h3>Your Notes</h3>
+        <div id="notes" class="container2">
+            <div class="card2">
+                <h5 class="card-tittle2">Aastha </h5>
+                <p>modi</p>
+                <button>Delete</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
